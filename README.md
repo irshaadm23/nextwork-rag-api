@@ -52,14 +52,24 @@ TinyLlama – Lightweight local language model used for answer generation
 Python Virtual Environment – Isolates project dependencies and Python version
 
 📁 Project Structure
+
 nextwork-rag-api/
-├── README.md        # Project documentation
-├── app.py           # FastAPI application
-├── embed.py         # Script to embed documents into ChromaDB
-├── k8s.txt          # Example knowledge base document
-├── db/              # Persistent ChromaDB storage
-├── venv/            # Python virtual environment (not committed)
+
+├── README.md # Project documentation
+
+├── app.py # FastAPI application
+
+├── embed.py # Script to embed documents into ChromaDB
+
+├── k8s.txt  # Example knowledge base document
+
+├── db/  # Persistent ChromaDB storage
+
+├── venv/ # Python virtual environment (not committed)
+
 └── .gitignore
+
+
 ⚙️ Setup & Running the Project
 1️⃣ Create and activate a virtual environment
 py -3.13 -m venv venv
