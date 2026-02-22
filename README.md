@@ -54,12 +54,19 @@ Python Virtual Environment – Isolates project dependencies and Python version
 📁 Project Structure
 
 nextwork-rag-api/
+
 ├── README.md # Project documentation
+
 ├── app.py # FastAPI application
+
 ├── embed.py # Script to embed documents into ChromaDB
+
 ├── k8s.txt  # Example knowledge base document
+
 ├── db/  # Persistent ChromaDB storage
+
 ├── venv/ # Python virtual environment (not committed)
+
 └── .gitignore
 
 
